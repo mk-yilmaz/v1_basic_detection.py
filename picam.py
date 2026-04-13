@@ -42,7 +42,9 @@ while True:
     
     
     # Gesichtserkennung durchführen
-    faces = face_cascade.detectMultiScale(grau,scaleFactor=1.1,minNeighbors=7,minSize= (90, 90))
+    faces = face_cascade.detectMultiScale(grau,scaleFactor=1.1,# Genauigkeit der Suche
+                                          minNeighbors=7,# Wie streng es erkannt wird
+                                          minSize= (90, 90)) #Mindestgröße eines Gesichts
 
     # Wenn mindestens ein Gesicht erkannt wurde
     if len(faces) > 0:
