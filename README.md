@@ -11,8 +11,8 @@ Dieses Projekt zeigt eine einfache Gesichtserkennung mit Python unter Verwendung
 - Verwendung von Zeitstempeln für Dateinamen.
 
 # Voraussetzungen
-- Python 3.
-- OpenCV (cv2).
+- Python 3.x
+- OpenCV cv2.
 - picamzero.
 - Haarcascade-Datei:
   haarcascade_frontalface_default.xml
