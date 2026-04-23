@@ -48,7 +48,7 @@ while True:
 
     # Wenn mindestens ein Gesicht erkannt wurde
     if len(faces) > 0:
-        print("Gesicht erkennt!")
+        print("Gesicht erkannt!")
 
         # Dateiname mit Zeitstempel erstellen
         filename = f"/home/admin/Desktop/Picture_{int(time.time())}.jpg"
