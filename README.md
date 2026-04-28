@@ -1,21 +1,21 @@
-# rasberry-pi-face-detection-opencv
+# raspberry-pi-face-detection-opencv
 ## 🇬🇧 English Version
 # Face Detection with Python (Raspberry Pi Camera)
 This project demonstrates a simple face detection system using Python and a Raspberry Pi camera.
 
-## 📌 Features
+# Features
 - Capturing images using the Raspberry Pi camera
 - Face detection using OpenCV (Haar Cascade)
 - Automatic image saving when a face is detected
 - Timestamp-based file naming
 
-## 🛠️ Requirements
+# Requirements
 - Python 3.x
 - OpenCV (cv2)
 - picamzero
 - Haarcascade file: `haarcascade_frontalface_default.xml`
 
-## 🚀 Usage
+# Usage
 Install required libraries:
 pip install opencv-python picamzero
 
@@ -24,17 +24,17 @@ Make sure the Haarcascade file is in the project directory.
 Run the script:
 python v1_basic_detection.py
 
-## ⚙️ How it works
+# How it works
 - The camera captures images in a loop
 - Each image is converted to grayscale
 - OpenCV detects faces using Haar Cascades
 - If a face is detected, the image is automatically saved and the program stops
 
-## 📂 Output
+# Output
 Saved images are stored in:
 `/home/admin/Desktop/`
 
-## 👤 Author
+# Author
 M. Yilmaz
 
 
@@ -73,7 +73,7 @@ Anschließend beendet sich das Programm.
 Gespeicherte Bilder befinden sich unter:
 /home/admin/Desktop/
 
-#Autor
+# Autor
 M. Yilmaz
 
 
